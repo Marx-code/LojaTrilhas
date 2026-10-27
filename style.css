@@ -42,6 +42,22 @@ nav p {
 
 
 
+.instrucoes{
+    margin: 10px;
+    background-color: rgb(0, 167, 0);
+    width: 200px;
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.instrucoes a{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 900;
+}
+
+
+
 main {
     display: flex;
     flex: 100%;
@@ -52,7 +68,6 @@ main {
 
 section {
     display: flex;
-    margin-top: 20px;
     white-space: normal;
     flex-wrap: wrap;
     padding: 50px;
