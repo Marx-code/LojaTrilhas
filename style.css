@@ -44,7 +44,10 @@ nav p {
 
 main {
     display: flex;
+    flex: 100%;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 section {
@@ -79,8 +82,8 @@ section {
 }
 
 .produto img{
-    height: 200px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 
 .textos {
@@ -97,6 +100,7 @@ section {
 
 .descricao {
     color: rgb(156, 144, 144);
+    height: 100px;
 }
 
 .preco {
@@ -111,8 +115,30 @@ button {
     font-weight: 600;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 footer {
-   background-color: #FB5430; 
+    background-color: #FB5430; 
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    section{
+        flex-direction: column;  
+        justify-content: center;  
+    }
+
+    .nav input{
+        display: none;
+    }
 }

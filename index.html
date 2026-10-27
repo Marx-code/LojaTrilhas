@@ -1,105 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja</title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loja</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="nav">
+            <div>
+                <p>LojaTrilhas</p>
+            </div>
 
-</head>
-<body>
+            <input type="search" placeholder="    Pesquise por um produto aqui">
 
-    <nav class="nav">
-        <div><p>LojaTrilhas</p></div>
+            <img src="assets/icons8-carrinho-64.png" alt="">
+        </nav>
 
-        <input type="search" placeholder="    Pesquise por um produto aqui">
+        <main>
+            <section>
+                
+                <div class="produto">
+                    <div class="conteinerImg">
+                        <img src="https://horizonplay.fbitsstatic.net/img/p/apple-iphone-12-128gb-5g-vitrine-tela-super-retina-xdr-oled-6-1-cor-azul-150373/336965-2.jpg?w=670&h=670&v=no-value" alt="">
+                    </div>
 
-        <img src="assets/icons8-carrinho-64.png" alt="">
-    </nav>
+                    <div class="textos">
+                        <p class="titulo">Iphone 12</p>
 
-    <main>
+                        <p class="descricao">um pouco curto iPhone 12 com tela OLED de 6,1 polegadas, câmera dupla de 12 MP e chip A14 Bionic, oferecendo ótimo desempenho e qualidade nas fotos.</p>
 
-        <section>
+                        <p class="preco">R$ 1599.99</p>
+                    </div>
 
-            <div class="produto">
-
-                <div class="conteinerImg">
-                    <img src="https://m.magazineluiza.com.br/a-static/420x420/iphone-12-apple-64gb-branco-tela-61-12mp-io/magazineluiza/231147400/2082220260ea24365fdc6b782faa2c57.jpg" alt="">
+                    <button class="buttonComprar" id="1">Comprar</button>
                 </div>
-            
 
+                <div class="produto">
+                    <div class="conteinerImg">
+                        <img src="https://t62533.vteximg.com.br/arquivos/ids/942712-1000-1000/S23-256GB.jpg?v=638258960884500000" alt="">
+                    </div>
 
-                <div class="textos">
-                    <p class="titulo">Iphone 12</p>
+                    <div class="textos">
+                        <p class="titulo">Samsung Galaxy S23</p>
 
-                    <p class="descricao">Descrição Descrição Descrição Descrição DescriçãoDescrição Descrição Descrição Descrição Descrição</p>
+                        <p class="descricao">Smartphone Samsung Galaxy S23, com câmera de alta qualidade, tela AMOLED, desempenho rápido e design moderno.</p>
 
-                    <p class="preco">R$ 1599,99</p>
+                        <p class="preco">R$ 2.499,99</p>
+                    </div>
+
+                    <button class="buttonComprar" id="2">Comprar</button>
                 </div>
 
-                <button class="buttonComprar" id="1">Comprar</button>
-            
-            </div>
+                <div class="produto">
+                    <div class="conteinerImg">
+                        <img src="https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/354436" alt="">
+                    </div>
 
+                    <div class="textos">
+                        <p class="titulo">Motorola Edge 40</p>
 
+                        <p class="descricao">Smartphone Motorola Edge 40, com tela OLED, câmera avançada, carregamento rápido e ótimo desempenho para o dia a dia.</p>
 
-        <div class="produto">
+                        <p class="preco">R$ 1.899,99</p>
+                    </div>
 
-            <div class="conteinerImg">
-                <img src="https://m.magazineluiza.com.br/a-static/420x420/iphone-12-apple-64gb-branco-tela-61-12mp-io/magazineluiza/231147400/2082220260ea24365fdc6b782faa2c57.jpg" alt="">
-            </div>
-            
+                    <button class="buttonComprar" id="3">Comprar</button>
+                </div>
+            </section>
+        </main>
 
+        <footer>
+            <p>©Karl Marx</p>
+        </footer>
 
-            <div class="textos">
-                <p class="titulo">Iphone 12</p>
-
-                <p class="descricao">Descrição Descrição Descrição Descrição DescriçãoDescrição Descrição Descrição Descrição Descrição</p>
-
-                <p class="preco">R$ 1599,99</p>
-            </div>
-
-            <button class="buttonComprar" id="2">Comprar</button>
-        </div>
-
-
-
-        <div class="produto">
-
-            <div class="conteinerImg">
-                <img src="https://m.magazineluiza.com.br/a-static/420x420/iphone-12-apple-64gb-branco-tela-61-12mp-io/magazineluiza/231147400/2082220260ea24365fdc6b782faa2c57.jpg" alt="">
-            </div>
-            
-
-
-            <div class="textos">
-                <p class="titulo">Iphone 12</p>
-
-                <p class="descricao">Descrição Descrição Descrição Descrição DescriçãoDescrição Descrição Descrição Descrição Descrição</p>
-
-                <p class="preco">R$ 1599,99</p>
-            </div>
-
-            <button class="buttonComprar" id="3">Comprar</button>
-            
-        </div>
-
-        </section>
-
-        
-
-    </main>
-
-
-
-    <footer>
-
-        <p>Karl Marx</p>
-
-    </footer>
-
-
-    <script src="services.js"></script>
-    
-</body>
+        <script src="services.js"></script>
+    </body>
 </html>
