@@ -28,6 +28,8 @@ A loja permite visualizar os produtos disponíveis e consultar seus valores.
 2. Abra a pasta do projeto.
 3. Execute o arquivo `index.html` em um navegador.
 
+Ou acesse [https://lojatrilhas.vercel.app/](https://lojatrilhas.vercel.app/)
+
 Não é necessário instalar dependências para abrir a página.
 
 ## 3. Captura de tela
