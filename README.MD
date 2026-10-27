@@ -16,6 +16,7 @@ A loja permite visualizar os produtos disponíveis e consultar seus valores.
 - HTML5 — estrutura da página.
 - CSS3 — estilização e layout.
 - JavaScript — implementação das funcionalidades e interações da loja.
+- Responsividade mobile — adaptação do layout para dispositivos móveis, como celulares e tablets.
 
 **Funcionalidades JavaScript:**
 - Interação com os botões de compra dos produtos.
